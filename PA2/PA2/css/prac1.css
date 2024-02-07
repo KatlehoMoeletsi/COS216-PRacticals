@@ -1,0 +1,355 @@
+body{
+
+ background-color:  black;
+ box-sizing: border-box;
+
+	}
+.divers {
+
+   overflow:hidden;
+    margin-left: 180px;
+
+
+}
+h1{
+
+  color:  #ffbf00;
+  font-size: 30px;
+  font-family: cursive;
+
+
+
+}
+.divers a{
+
+
+padding: 34px;
+text-transform: uppercase;
+overflow: hidden;
+font-size: 17px;
+text-decoration: none;
+font-family: cursive;
+
+
+
+
+}
+.divers a.index{
+
+ color: #c20f3d
+
+
+}
+.divers a.today{
+
+ color:#61f23b;
+
+
+}
+.divers a.sa{
+
+ color: #9e3dcc;
+
+
+}
+.divers a.covid{
+
+ color: #c4d9a1
+
+
+}
+.divers a.world{
+
+  color: #ffbf00
+
+
+}
+.divers a.calendar{
+
+ color: #def101
+
+
+}
+.divers a:hover{
+
+  background-color: white;
+  border-radius: 25px;
+
+}
+
+
+/* If you want the content centered horizontally and vertically */
+
+
+/* Style the image inside the centered container, if needed */
+
+
+.column{
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row{
+
+
+	margin-top: 100px;
+}
+ {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: center;
+  width: 20%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+form.example{
+
+     margin-top: 100px;
+	margin-left: 370px;
+}
+.diwali{
+ 
+ overflow:hidden;
+    margin-left: 240px;
+
+}
+.diwali a{
+
+
+padding: 34px;
+text-transform: uppercase;
+overflow: hidden;
+font-size: 45px;
+text-decoration: none;
+font-family: cursive;
+font-size: bold;
+
+}
+
+.diwali a.pa1{
+
+  color:green;
+
+}
+.diwali a.pa2{
+
+color: #c12f3d;
+
+}
+.diwali a.pa3{
+
+color: #c22f3d;
+
+
+}
+.diwali a.pa4{
+
+color: #c72f5d;
+
+
+}
+.diwali a.pa5{
+
+color: #c42f8d;
+
+
+}
+.diwali a:hover{
+
+  background-color: pink;
+  border-radius: 75px;
+
+}
+* (A) ENTIRE PAGE */
+.gh{
+
+
+  background-color: black;
+}
+#cal-wrap * { font-family: arial, sans-serif; 
+
+   
+
+}
+.ninja { display: none !important; }
+
+/* (B) CONTAINER */
+#cal-wrap { max-width: 600px; }
+
+/* (C) PERIOD SELECTOR */
+#cal-date { display: flex; }
+#cal-mth, #cal-yr {
+  box-sizing: border-box;
+   margin-left: 500px;
+  padding: 10px 20px;
+  font-size: 1.4em;
+  color: red;
+  border: 0;
+}
+
+/* (D) CALENDAR */
+#calendar {
+  margin-left: 550px;
+  width: 100%;
+  border-collapse: collapse;
+}
+#calendar tr.head td {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: blue;
+  background: orange;
+  padding: 15px;
+  text-align: center;
+}
+#calendar tr.day td {
+  border: 1px solid green;
+  width: 14.28%;
+  padding: 15px 5px;
+  vertical-align: top;
+}
+#calendar tr.day td:hover {
+  background: purple;
+  cursor: pointer;
+}
+#calendar tr td.blank {
+  background: pink;
+}
+#calendar tr td.today {
+  background: red;
+}
+#calendar .dd {
+  font-size: 1.2em;
+  color: green;
+}
+#calendar .evt {
+  margin-top: 5px;
+  font-size: 0.8em;
+  font-weight: bold;
+  overflow: hidden;
+  color: #ff5d5d;
+}
+
+/* (E) ADD/EDIT EVENT */
+#cal-event {
+  padding: 15px;
+  margin-top: 20px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+}
+#cal-event h1 {
+  color: #333;
+  padding: 0;
+  margin: 0;
+}
+#evt-date {
+  color: #555;
+  margin: 10px 0;
+}
+#cal-event textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  min-height: 100px;
+}
+#cal-event input[type=button], #cal-event input[type=submit] {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.2em;
+  border: 0;
+  background: #ea4c4c;
+  color: #fff;
+}
+.gh{
+
+
+  background-color: black;
+}
+#box{
+      width: 359px;
+    height: 150px;
+   
+        position: absolute;
+    
+}
+.kaizer{
+
+
+  color: orange;
+  font-size: 57px;
+
+}
+.loader {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader > img {
+    width: 100px;
+}
+
+.loader.hidden {
+    animation: fadeOut 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.thumb {
+    height: 100px;
+    border: 1px solid black;
+    margin: 10px;
+}

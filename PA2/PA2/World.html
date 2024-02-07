@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<HEAD>
+	 <link href="css\prac1.css" type="text/css" rel="stylesheet"/>
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="js\zoe.js">
+     </script>
+</HEAD>
+<BODY onload="world()">
+	
+  
+   <div class="divers">
+  	
+          <a class ="index"  href="index.html"  > <i class="fa fa-home" aria-hidden="true" style="font-size :48px;"></i> home </a>
+           <a class ="today"  href="Today.html"  > Today </a>
+            <a class ="sa"  href="SouthAfrica.html"  > South Africa </a>
+             <a class ="world"  href="World.html"  > World </a>
+              
+               <a class ="covid"  href="Covid-19.html"  > Covid-19 </a>
+               <a class ="calender"  href="Calendar.html"  > Calendar</a>
+              
+              
+
+
+
+  </div>
+
+    
+ <input type="search" id="person" name="q" onsearch="searcha()" placeholder="Search..for news">
+
+  <!--button type="submit" onload="searcha()"><i class="fa fa-search"></i></button-->
+
+    <div id="myBtnContainer">
+    <div style="color: blue; font-size:  55px;">
+      filter:
+    </div>
+  <button class="btn active" onclick="sports()"> sports</button>
+  <button class="btn" onclick="entertainment()"> entertainment</button>
+  <button class="btn" onclick="health()"> health</button>
+  <button class="btn" onclick="environment()"> environment</button>
+  <button class="btn" onclick="business()"> business</button>
+</div>
+  <div id="sa">
+   
+  </div>
+<div class="loader">
+    <img src="img\loading.gif" style="height:100%;width:100%"alt="Loading..." />
+
+</BODY>
+
+</HTML>
